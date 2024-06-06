@@ -1,44 +1,120 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+*{
+
+margin: 0;
+padding: 0;
 }
 
-header {
-    background-color: #f8f9fa;
-    padding: 20px;
+body { 
+    width:99%;
+    height:97%;
+    background-image: url('spices2.jpg');
+    background-size: cover;
+}
+.top{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    padding:0px 10px;
+}
+.logo{font-size: 30px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+
+}
+.logo::before{
+    width: 35px;
+    height: 35px;
+    border: 2px solid whitesmoke;
+    content:'';
+    position: absolute;
+}
+.logo:hover{
+    color: orange;
+}
+.nav{
+    position: relative;
+    left: -100px;
+}
+a{
+    padding:5px 15px ;
+    color: whitesmoke;
+    font-size: 25px;
+    text-decoration:none;
+    border: .1rem solid transparent;
+
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.search{
+    font-size: 25px;
+}
+.search i{
+    padding:5px 20px;
+    color: whitesmoke;
+    background-color: orange;
+}
+.images2{
+    width: 200px;
+    height: 200px;
+    background-image: url('biryani.png');
+    background-image: url('Mango-Lassi-4.jpg');
+    background-size: cover;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images2::before{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    content:'';
+    position: absolute;
+    border-radius: 200px;
+   
+}
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:80px;
+}
+.left h1{
     text-align: center;
-}
+    font-size: 90px;
+    color: whitesmoke;
+    letter-spacing: 1px;
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
 }
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.socialmedia{
+    position: absolute;
+    right:0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 40px;
+    height: 150px;
+    background-color: orange;
+    font-size: 25px;
 }
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
+.socialmedia i:hover{
+    color: whitesmoke;
 }
-
-section {
-    padding: 20px;
-}
-
-.menu-item {
-    margin-bottom: 20px;
-}
-
-footer {
-    background-color: #343a40;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+.foot p{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
     position: fixed;
     bottom: 0;
     width: 100%;
+    color: whitesmoke;
+    background-color: black;
 }

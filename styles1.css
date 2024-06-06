@@ -1,0 +1,119 @@
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    
+    body { 
+        width:99%;
+        height:97%;
+        background-color: rgb(32, 31, 31);
+        background-size: cover;
+    }
+    .top{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 80px;
+        width: 100%;
+        background-color: black;
+        align-items: center;
+        padding:0px 10px;
+    }
+    .logo{font-size: 30px;
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+    
+    }
+    .logo::before{
+        width: 35px;
+        height: 35px;
+        border: 2px solid whitesmoke;
+        content:'';
+        position: absolute;
+    }
+    .logo:hover{
+        color: yellowgreen;
+    }
+    .nav{
+        position: relative;
+        left: -100px;
+    }
+    a{
+        padding:5px 15px ;
+        color: whitesmoke;
+        font-size: 25px;
+        text-decoration:none;
+        border: .1rem solid transparent;
+    
+    }
+    a:hover{
+        color: yellowgreen;
+        text-decoration: underline;
+    }
+    .search{
+        font-size: 25px;
+    }
+    .search i{
+        padding:5px 20px;
+        color: whitesmoke;
+        background-color: yellowgreen;
+    }
+    .menu{
+        margin: 80px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+    }
+    .menu img{
+        border-radius: 20px;
+        max-width: 150px;
+    }
+    .menu h1{
+        margin: 20px;
+        font-size: 30px;
+        color: yellowgreen;
+        letter-spacing: 1px;
+        
+
+    }
+    .menu h2{
+        margin: 20px;
+        font-size: 30px;
+        color: yellowgreen;
+        letter-spacing: 1px;
+
+    }
+    .menu p{
+        margin: 20px;
+        font-size: 25px;
+        color: whitesmoke;
+        letter-spacing: 1px;
+        justify-content: space-between;
+        
+    }
+    .menu p span{
+        color: yellowgreen;
+    }
+    .menu ul{
+        margin: 20px;
+        font-size: 20px;
+        text-align: center;
+        color: whitesmoke;
+        letter-spacing: 1px;
+        justify-content: space-between;
+        border: 1px solid whitesmoke;
+    }
+    .foot p{
+        display: flex;
+        justify-content: space-evenly;
+        align-items:center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        color: whitesmoke;
+        background-color: black;
+    }
+    
